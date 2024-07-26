@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>form</title>
+</head>
+
+<body class="bg-white">
+
+    <!-- nab bar start here -->
+    <div class="container">
+        <div class="row justify-content-center shadow p-1 bg-body rounded m-1 ">
+            <div class=" col-lg-2 col-sm-12 logo">
+                <div><img src="assets/images/logo-1.png" alt="logo"></div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Company</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Company 1</a></li>
+                            <li><a class="dropdown-item" href="#">Company 2</a></li>
+                            <li><a class="dropdown-item" href="#">Company 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Broucher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-sm-12 col-lg-2">
+                <img class="img-profile" src="assets/images/logos.jpg" alt="logos">
+                <span>Profie</span>
+            </div>
+        </div>
+    </div>
+    <!-- nav bar end here  -->
+
+
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10 shadow  mb-2 bg-body rounded bg-light ">
+            <div class=" border rounded shadow text-white bg-success"><span class="d-flex justify-content-center">Clint
+                    ledger and Payment
+                    Schedules</span></div>
+
+            <form action="">
+                <!-- radio button start here  -->
+                <div class="shadow p-1 mb-2 bg-body rounded bg-light">
+                    <div class="shadow p-1 mb-2 bg-body rounded bg-light">
+                        <div class="form-check form-check-style">
+                            <label class="form-check-label" for="name"><span class="fw-bold">Report</span></label>
+                        </div>
+                        <div class="form-check form-check-style tab">
+                            <input class="form-check-input" type="radio" name="check">
+                            <label class="form-check-label" for="clint">Clint ledger</label>
+                        </div>
+                        <div class="form-check form-check-style">
+                            <input class="form-check-input" type="radio" name="check">
+                            <label class="form-check-label" for="payment">Payment Schedules</label>
+                        </div>
+                        <div class="form-check form-check-style">
+                            <input class="form-check-input" type="radio" name="check">
+                            <label class="form-check-label" for="payment">Payment ledger</label>
+                        </div>
+                    </div>
+
+                    <!-- radio button end here  -->
+
+
+
+                    <div class="row mt-2">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="choice" class="form-label">Organization:</label>
+                            <select id="choice" class="form-select">
+                                <option selected>Choose...</option>
+                                <option> Dakhina Real Estate (Pvt.) Ltd.</option>
+                            </select>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="choice" class="form-label">project:</label>
+                            <select id="choice" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>Dakhina City Project</option>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="file" class="form-label">File No.</label>
+                            <input type="text" class="form-control" aria-label="file name">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Total clint</label>
+                            <input type="text" class="form-control" aria-label="clint number">
+                        </div>
+                    </div>
+
+
+
+                    <div class="mb-1 d-flex justify-content-right align-item-center gap-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="input-big" placeholder="Name">
+                    </div>
+
+                    <div class="mb-1 d-flex justify-content-right align-item-center gap-3">
+                        <label for="name" class="form-label"><span class="text-nowrap">Special Note</span></label>
+                        <input type="text" class="form-control" id="field-area1" placeholder="Special Note">
+                    </div>
+
+                    <div class="mb-1 d-flex justify-content-right align-item-center gap-3">
+                        <label for="reg.remark" class="form-label">Reg.Remarks</label>
+                        <input type="text" class="form-control" id="field-area2" placeholder="Reg.Remarks">
+                    </div>
+
+                    <div class="mb-1 d-flex justify-content-right align-item-center gap-3">
+                        <label for="Remarks" class="form-label">Remarks</label>
+                        <input type="text" class="form-control" id="field-area3" placeholder="Remarks">
+                    </div>
+
+                </div>
+
+
+
+                <!-- second part start here  -->
+                <div class="shadow p-1 mb-2 bg-body rounded bg-light">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="file" class="form-label">block:</label>
+                            <input type="text" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Road:</label>
+                            <input type="text" class="form-control" aria-label="Road name">
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Plots</label>
+                            <input type="text" class="form-control" aria-label="Plots name">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="file" class="form-label">plots</label>
+                            <input type="text" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Price :</label>
+                            <input type="text" class="form-control" aria-label="Road name">
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">facing:</label>
+                            <input type="text" class="form-control" aria-label="Plots name">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="shadow p-1 mb-2 bg-body rounded bg-light">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="Sales date" class="form-label">Sales Date:</label>
+                            <input type="text" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="Seles" class="form-label">Seles Mode :</label>
+                            <input type="text" class="form-control" aria-label="Road name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="Mobile" class="form-label">Mobile:</label>
+                            <input type="number" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="Email" class="form-label">Email :</label>
+                            <input type="email" class="form-control" aria-label="Road name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="facebook" class="form-label">facebook Id :</label>
+                            <input type="text" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Current Executive:</label>
+                            <input type="text" class="form-control" aria-label="Road name">
+                        </div>
+                    </div>
+
+
+
+                    <div class="mb-1 d-flex justify-content-right align-item-center gap-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="input-big" placeholder="Name">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="facebook" class="form-label">Plot price :</label>
+                            <input type="text" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label"> Received :</label>
+                            <input type="text" class="form-control" aria-label="Road name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="facebook" class="form-label">Plot Value Dues:</label>
+                            <input type="text" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Valance :</label>
+                            <input type="text" class="form-control" aria-label="Road name">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="shadow p-1 mb-2 bg-body rounded bg-light">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="file" class="form-label">Reg & Utility:</label>
+                            <input type="text" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Received:</label>
+                            <input type="text" class="form-control" aria-label="Road name">
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Dues:</label>
+                            <input type="text" class="form-control" aria-label="Plots name">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="file" class="form-label">Other charge:</label>
+                            <input type="text" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Received :</label>
+                            <input type="text" class="form-control" aria-label="Road name">
+                        </div>
+                        <div class="col-lg-4 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label">Dues:</label>
+                            <input type="text" class="form-control" aria-label="Plots name">
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="facebook" class="form-label">Amount Receve:</label>
+                            <input type="number" class="form-control" aria-label="block name">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label text-nowrap">Cancel Date :</label>
+                            <input type="date" class="form-control" aria-label="Road name">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shadow p-1 mb-2 bg-body rounded bg-light">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="facebook" class="form-label">Security Registration on:</label>
+                            <input id="input-last" type="number" class="form-control" aria-label="Security">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label text-nowrap">Possession Handover Date :</label>
+                            <input id="input-last" type="number" class="form-control" aria-label="Possession">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="facebook" class="form-label">Final alotment stutas:</label>
+                            <input id="input-last" type="number" class="form-control" aria-label="Security">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label text-nowrap">Final alotment Handover Date :</label>
+                            <input id="input-last" type="number" class="form-control" aria-label="Possession">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="facebook" class="form-label">Gate pass :</label>
+                            <input id="input-last" type="number" class="form-control" aria-label="Security">
+                        </div>
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="clint" class="form-label text-nowrap">Gate pass Date :</label>
+                            <input id="input-last" type="date" class="form-control" aria-label="Possession">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 d-flex justify-content-between align-items-center">
+                            <label for="facebook" class="form-label">Bondary wall:</label>
+                            <input id="input-last" type="number" class="form-control" aria-label="Security">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="row mt-5 mb-5">
+                    <div class="col-lg-10 col-sm-12 d-flex justify-content-between align-items-center">
+                        <label for="choice" class="form-label">Report Type:</label>
+                        <select id="choice" class="form-select">
+                            <option selected>pdf...</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-center align-item-center gap-3 mt-4">
+                        <button type="submit" class="btn btn-success">Show Repot </button>
+                        <button type="submit" class="btn btn-success">E-mail Report</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </form>
+        </div>
+        <div class="col-1"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
